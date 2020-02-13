@@ -1,0 +1,45 @@
+2020-02-04 220806 INFO ncc250 NCC command = ['homenutanixnccbinncc', 'hardware_info', 'show_hardware_info']
+2020-02-04 220806 INFO serviceability_executor.py1510 Loading plugins from homenutanixnccbinplugins
+2020-02-04 220813 INFO zookeeper_session.py143 ncc is attempting to connect to Zookeeper
+2020-02-04 220815 INFO anomaly_checks.py124 loading anomaly checks module
+2020-02-04 220815 INFO config.py125 Loading configs from homenutanixnccplugin_config
+2020-02-04 220817 INFO serviceability_executor.py1528 Modules discovered ['log_collector', 'cassandra_tools', 'profilers', 'upload_to_ftp', 'fix_failures', 'hardware_info', 'pulsehd_collectors', 'performance_checks', 'help_opts', 'stats', 'health_checks']
+2020-02-04 220817 ERROR serviceability_executor.py1504 Error while reading failed plugins file appliancelogicalserviceabilitylast_failed_plugins
+2020-02-04 220817 INFO kvm_utils.py125 Executing command uname -r
+2020-02-04 220818 INFO serviceability_executor.py1572 Server lock acquired at appliancelogicalanalyticsncc_lock
+2020-02-04 220820 INFO serviceability_executor.py1113 Plugin count not present in cache
+2020-02-04 220820 INFO serviceability_executor.py1114 Generating the plugin count needed
+2020-02-04 220820 INFO base_plugin.py2091 Plugin pc_vcpu_availability_check has been disabled
+2020-02-04 220822 INFO plugin_check_filter.py99 NCC check Backup snapshots on metro secondary check. Supported on this cluster hardware True
+2020-02-04 220822 INFO plugin_check_filter.py99 NCC check Host passwordless SSH. Supported on this cluster hardware True
+2020-02-04 220822 INFO plugin_check_filter.py99 NCC check REST endpoint connection status. Supported on this cluster hardware True
+2020-02-04 220822 INFO plugin_check_filter.py99 NCC check Snapshot file location check. Supported on this cluster hardware True
+2020-02-04 220822 INFO plugin_check_filter.py99 NCC check Protection Domains File share. Supported on this cluster hardware True
+2020-02-04 220822 INFO plugin_check_filter.py213 NCC check 'Protection Domains File share' is not supported on version 5.11.2
+2020-02-04 220822 INFO plugin_check_filter.py349 Filter out check 'Protection Domains File share' of plugin 'pds_share_file_check'
+2020-02-04 220822 INFO plugin_check_filter.py74 NCC check 'SATA DOM Guest VM Check.' Supported on node NX-1065-G6 False
+2020-02-04 220822 INFO plugin_check_filter.py99 NCC check SATA DOM Guest VM Check. Supported on this cluster hardware False
+2020-02-04 220822 INFO plugin_check_filter.py349 Filter out check 'SATA DOM Guest VM Check' of plugin 'sata_dom_uvm_check'
+2020-02-04 220822 INFO plugin_check_filter.py74 NCC check 'Samsung PM863a version compatibility check.' Supported on node NX-1065-G6 True
+2020-02-04 220822 INFO plugin_check_filter.py99 NCC check Samsung PM863a version compatibility check. Supported on this cluster hardware True
+2020-02-04 220822 INFO plugin_check_filter.py74 NCC check 'Samsung PM863a FW version check.' Supported on node NX-1065-G6 True
+2020-02-04 220822 INFO plugin_check_filter.py99 NCC check Samsung PM863a FW version check. Supported on this cluster hardware True
+2020-02-04 220822 INFO plugin_check_filter.py74 NCC check 'Samsung PM863a status check.' Supported on node NX-1065-G6 True
+2020-02-04 220822 INFO plugin_check_filter.py99 NCC check Samsung PM863a status check. Supported on this cluster hardware True
+2020-02-04 220822 INFO plugin_check_filter.py99 NCC check Volume Group Space Usage. Supported on this cluster hardware True
+2020-02-04 220822 INFO plugin_check_filter.py99 NCC check Protected VMs CBR Incapable. Supported on this cluster hardware True
+2020-02-04 220822 INFO plugin_check_filter.py99 NCC check SwitchStatsCollector. Supported on this cluster hardware True
+2020-02-04 220822 INFO plugin_check_filter.py99 NCC check CVM active upgrade check. Supported on this cluster hardware True
+2020-02-04 220822 INFO plugin_check_filter.py99 NCC check DCDNS running on Nutanix Cluster Check. Supported on this cluster hardware True
+2020-02-04 220822 INFO plugin_check_filter.py156 NCC check 'DCDNS running on Nutanix Cluster Check' is not supported on hypervisors '[1001, 3]'
+2020-02-04 220822 INFO plugin_check_filter.py349 Filter out check 'DCDNS running on Nutanix Cluster Check' of plugin 'check_dc_dns_on_cluster'
+2020-02-04 220822 INFO plugin_check_filter.py74 NCC check 'Intel S4600 version compatibility check.' Supported on node NX-1065-G6 True
+2020-02-04 220822 INFO plugin_check_filter.py99 NCC check Intel S4600 version compatibility check. Supported on this cluster hardware True
+2020-02-04 220822 INFO plugin_check_filter.py74 NCC check 'Intel S4600 FW version check.' Supported on node NX-1065-G6 True
+2020-02-04 220822 INFO plugin_check_filter.py99 NCC check Intel S4600 FW version check. Supported on this cluster hardware True
+2020-02-04 220822 INFO plugin_check_filter.py74 NCC check 'Intel S4600 status check.' Supported on node NX-1065-G6 True
+2020-02-04 220822 INFO plugin_check_filter.py99 NCC check Intel S4600 status check. Supported on this cluster hardware True
+2020-02-04 220822 INFO plugin_check_filter.py74 NCC check 'Intel S4600 FW version check on Lenovo.' Supported on node NX-1065-G6 False
+2020-02-04 220822 INFO plugin_check_filter.py99 NCC check Intel S4600 FW version check on Lenovo. Supported on this cluster hardware False
+2020-02-04 220822 INFO plugin_check_filter.py349 Filter out check 'Intel S4600 FW version check on Lenovo' of plugin 'intels4600_status_check'
+homenutanixdatalogsncc.log 7611L, 1009060C
